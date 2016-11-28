@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#loader {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50%;
+}
+
+#main {
+  display: none;
+  text-align: center;
+  margin-top: 55%;
+}
+
+@media (min-width: 768px) {
+  #loader {
+    margin-top: 20%;
+  }
+  #main {
+    margin-top: 25%;
+  }
+}
